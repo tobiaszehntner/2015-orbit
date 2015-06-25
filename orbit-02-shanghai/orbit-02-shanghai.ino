@@ -308,7 +308,7 @@ void update() {
 
 void getTime() {
   DateTime now = RTC.now();
-  byte RTC_hour = now.hour();;
+  byte RTC_hour = now.hour();
   byte RTC_min = now.minute();
   
   if(RTC_hour >= awake_hour && RTC_hour <= asleep_hour) {
